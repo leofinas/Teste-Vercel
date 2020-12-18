@@ -1,26 +1,9 @@
-import { useState } from 'react';
-
 function Home() {
     return (
-    <div>
-        <h1>Teste com Vercel</h1>
-        <Contador />
-    </div>
-    )
-}
-
-function Contador() {
-    const[contador,setContador] = useState(1);
-
-    function adicionarContador() {
-        setContador(contador + 1);
-    }
-
-    return(
-        <div>
-            <div>{contador}</div>
-            <button onClick={adicionarContador}>Adicionar</button>
-        </div>
+        <html>
+            <title>Ponto de Vista</title>
+            <h1>Esse vai ser o site da Ponto de Vista</h1>
+        </html>
     )
 }
 
